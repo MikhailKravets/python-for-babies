@@ -1,5 +1,5 @@
 
-from typing import Callable, Iterable
+from typing import Callable
 
 
 def filter_and_index(collection: list[int]) -> (list[int], list[int]):
