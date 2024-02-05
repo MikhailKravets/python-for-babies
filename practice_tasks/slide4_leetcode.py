@@ -32,8 +32,7 @@ def remove_duplicates(l: list[int]) -> list[int]:
     s = list(set(l))
     s.sort()  # sorted(s)
     return s
-    
-
 
 if __name__ == "__main__":
+    print("SOMETHING WRONG")
     print(remove_duplicates([1, 1, 2, 3, 3, 3, 5, 5, 6]))

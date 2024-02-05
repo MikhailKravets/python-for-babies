@@ -1,5 +1,6 @@
 
 from typing import Callable
+from slide4_leetcode import remove_duplicates
 
 
 def filter_and_index(collection: list[int]) -> (list[int], list[int]):
