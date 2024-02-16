@@ -54,3 +54,5 @@ if __name__ == "__main__":
     print(counter())
     print(counter())
     print(counter())
+
+    print(list(filter(lambda v: v % n == 0, [3, 4, 1, 5, 4, 3, 5, 6, 7])))
