@@ -6,6 +6,15 @@ def init_key(d: dict[str, int], key: str, default_value: int = 0):
 
 
 def concat_dicts(d1: dict[Any, Any], d2: dict[Any, Any]) -> dict[Any, Any]:
+    """_summary_
+
+    Args:
+        d1 (dict[Any, Any]): _description_
+        d2 (dict[Any, Any]): _description_
+
+    Returns:
+        dict[Any, Any]: _description_
+    """
     # d1.update(d2)
     d3 = dict(d1)
     d4 = dict(d2)

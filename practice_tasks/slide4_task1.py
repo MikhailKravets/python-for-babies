@@ -1,4 +1,3 @@
-
 from typing import Callable
 from slide4_leetcode import remove_duplicates
 
@@ -27,7 +26,7 @@ def _f(cummulated_value: int, v: int):
     return cummulated_value + v
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     l = [1, 4, 3, 5, 6, 3, 1, 2, 3, 4]
     new, ind = filter_and_index(l)
     print(new)
@@ -36,4 +35,3 @@ if __name__ == '__main__':
     print(reduce(lambda c, v: c + v, l))
     print(reduce(lambda c, v: c * v, l))
     print(reduce(lambda c, v: c - v, l))
-
