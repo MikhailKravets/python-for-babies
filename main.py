@@ -14,8 +14,8 @@ list
 
 # ASCII, UTF-8
 if __name__ == "__main__":
-    s = "fuewhfwu"
-    l = []
-    l.append(5)
-    l.pop()
-    print(l)
+    # Static Array vs Dynamic Array
+    arr = [2, 4, 5, 3, 4, 1]  # list
+
+    # Array Slicing
+    print(arr[::-1])  # [0, 3)
