@@ -75,6 +75,7 @@ def max_number(numbers: list[int]) -> int:
 
 
 if __name__ == "__main__":
+    print(default(7, 7))
     print(list_arguments(4, 5, 6, 7, 4, 3, 2))
     print(dict_arguments(one=4, random_arg_name=5, four=6))
     any_args()

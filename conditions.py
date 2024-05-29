@@ -1,10 +1,11 @@
 def f(x: str | int):
     if isinstance(x, str):
         return "reffewfew"
-    elif isinstance(x, int):
+
+    if isinstance(x, int):
         return 0
-    else:
-        raise ValueError("fwhufhweiu")
+
+    raise ValueError("fwhufhweiu")
 
 
 if __name__ == "__main__":
